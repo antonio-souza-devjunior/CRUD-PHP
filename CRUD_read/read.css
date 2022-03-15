@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, dodgerblue, rgb(0, 61, 122));
+}
+
+#navegue {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+.nav-title {
+    color: white;
+}
+
+.nav-link {
+    background-color: rgb(0, 65, 129);
+    color: white;
+    margin-right: 20px;
+    width: 55px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px; 
+    text-decoration: none;
+    box-shadow: 3px 3px 3px black;
+}
+
+.conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela {
+    width: 80%;
+    text-align: center;
+    padding: 10px 15px;
+    border-spacing: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tabela th {
+    border-bottom: 1px solid white;
+    color: #fff;
+    padding: 15px;
+    
+    
+}
+
+.tabela td {
+    border-bottom: 1px solid white;
+    padding: 15px;
+}
+
+.edit {
+    background-color: dodgerblue;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.delet {
+    background-color: red;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.tabela i {
+    color: #fff;
+}

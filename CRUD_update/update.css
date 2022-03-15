@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgb(0, 0, 124), rgb(103, 0, 134));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title {
+    background-color: rgb(63, 0, 180);
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: aliceblue;
+    text-align: center;
+}
+
+.campo-input {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    height: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+    text-indent: 4px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.descricao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.8s;
+    font-size: 20px;
+    color: white;
+    text-indent: 5px;
+}
+
+.input:focus ~ .descricao, .input:valid ~ .descricao {
+    top: -20px;
+    font-size: 15px;
+    color: dodgerblue
+}
+
+.campo-input-radiu {
+    margin-bottom: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.sub-title {
+    margin-bottom: 10px;
+}
+
+.campo-input-data {
+    margin-bottom: 25px;
+    color: aliceblue;
+    text-indent: 5px;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}   
+
+.btn {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: rgb(63, 0, 180);
+    border: 2px solid rgb(63, 0, 180);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(63, 0, 180);
+}
